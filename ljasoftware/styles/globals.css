@@ -15,3 +15,12 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h2{
+  color: white;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: normal;
+  margin: 0;
+}
