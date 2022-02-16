@@ -1,5 +1,5 @@
 .contato{
-    background-image: url(/capa_contato.jpg);
+    background-image: url(/capa_contato.jpg );
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -61,4 +61,25 @@
     flex-direction: column;
     width: 100%;
     padding: 0 25%;
+}
+
+.contato button{
+    border: 1px solid red;
+    font-size: 1em;
+    font-weight: 900;
+    color: white;
+    background-color: #0E62C2;
+    margin: 0 auto;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.contato button:hover{
+    background-color: #0d57ac;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+
 }
