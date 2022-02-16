@@ -12,6 +12,7 @@ export function Contato() {
         <input type="email" placeholder='Digite seu e-mail...'></input>
         <label>Mensagem</label>
         <textarea placeholder='Digite sua mensagem...'></textarea>
+        <button>ENVIAR</button>
       </form>
 
     </div>

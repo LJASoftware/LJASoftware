@@ -5,13 +5,13 @@
 .divGeral {
     display: flex;
     align-items: center;
-
-    padding: 30px 60px;
+    padding: 50px 10% 50px;
 }
 
 .sobre p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #ffffff;
+    font-weight: 300;
     text-align: justify;
 }
 
