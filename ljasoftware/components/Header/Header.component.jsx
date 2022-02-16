@@ -8,7 +8,7 @@ export function Header() {
       width="50"
       height="50"
       src="/logo.png"
-      alt="Picture of the author"
+      alt="Logo LJA Software"
     />
 
     <ul>

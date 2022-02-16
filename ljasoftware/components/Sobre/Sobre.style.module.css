@@ -1,0 +1,30 @@
+.sobre {
+    background-color: #083A75;
+}
+
+.divGeral {
+    display: flex;
+    align-items: center;
+
+    padding: 30px 60px;
+}
+
+.sobre p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.sobre h2 {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+
+    padding-top: 2%;
+}
+
+.sobre section {
+    padding-left: 30px;
+}
