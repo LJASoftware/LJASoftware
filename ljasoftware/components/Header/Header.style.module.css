@@ -1,3 +1,27 @@
-.azul {
-  color: blue;
+.header {
+  background: #0E62C2;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
 }
+
+.header ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.header li{
+  padding: 0 0 0 60px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.header a:hover{
+  color:gainsboro;
+}
+
+
+
