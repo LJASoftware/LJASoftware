@@ -21,5 +21,7 @@
       "imagem": ""
     }
   ],
-  "numeroDeProjetos": 4
+  "numeroDeProjetos": 4,
+  "paginaAtual": 1,
+  "ehUltimaPagina": true
 }
