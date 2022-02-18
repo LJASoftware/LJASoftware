@@ -3,16 +3,14 @@ import Image from 'next/image'
 
 export function Sobre() {
   return (
-    <div className={styles.sobre}>
-
-      <div className={styles.divSubtitulo}>
+    <section className={styles.sobre}>
+      <div>
         <h2>Sobre</h2>
       </div>
-      
 
-      <div className={styles.divGeral}>
+      <div className={styles.container__info}>
         <div className={styles.image}>
-        <Image
+          <Image
             width='934'
             height='624'
             src='/pessoa-programando.jpg'
@@ -35,6 +33,6 @@ export function Sobre() {
           </p>
         </section>
       </div>
-    </div>
+    </section>
   )
 }

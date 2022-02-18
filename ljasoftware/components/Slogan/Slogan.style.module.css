@@ -1,18 +1,19 @@
-.slogan{
-    background-image: url(/capa.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    padding: 0 10%;
-    border: 1px  solid transparent;
+.slogan {
+  background-image: url(/capa.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 90vh;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  border: 1px solid transparent;
 }
 
-.slogan h1{
-    font-size: 6em;
-    width: 80%;
-    color: #FFFFFF;
+.slogan h1 {
+  margin: 5vh 0;
+  font-size: 6em;
+  width: 80%;
+  color: #ffffff;
 }
-

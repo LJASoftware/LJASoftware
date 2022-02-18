@@ -1,14 +1,38 @@
+import { useEffect, useState } from 'react'
 import { Projeto } from '..'
+import axios from 'axios'
 import styles from './Portifolio.style.module.css'
 
 export function Portifolio() {
+  const [projetos, setProjetos] = useState([])
+
+  useEffect(() => {
+    async function getProjetos() {
+      try {
+        const resposta = await axios.get('http://localhost:3000/api/projetos')
+        setProjetos(resposta.data.projetos)
+      } catch {
+        console.log(error)
+      }
+    }
+
+    getProjetos()
+  }, [])
+
   return (
-    <div>
+    <section className={styles.portifolio}>
       <h2>PORTIFOLIO</h2>
-      <Projeto link={'google.com'} nome={'Chocolate'} imagem={'imagem'} />
-      <Projeto link={'yahoo.com'} nome={'Chocolate'} imagem={'imagem'} />
-      <Projeto link={'facebook.com'} nome={'Chocolate'} imagem={'imagem'} />
-      <Projeto link={'tibia.com'} nome={'Chocolate'} imagem={'imagem'} />
-    </div>
+      <ul className={styles.projetos__container}>
+        {projetos.map(projeto => {
+          return (
+            <Projeto
+              link={projeto.link}
+              nome={projeto.nome}
+              imagem={projeto.imagem}
+            />
+          )
+        })}
+      </ul>
+    </section>
   )
 }
