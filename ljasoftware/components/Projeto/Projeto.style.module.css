@@ -1,0 +1,26 @@
+.projeto {
+  background-color: #5ca4f84d;
+  width: 30vw;
+  height: 30vw;
+  margin: 10vh 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.imagem {
+  position: relative;
+  height: 50%;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+  color: #5ca4f8;
+  font-size: 1.5rem;
+}
+
+.espaco {
+  height: 25%;
+}
