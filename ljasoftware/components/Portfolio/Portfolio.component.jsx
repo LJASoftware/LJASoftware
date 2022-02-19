@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import { Projeto } from '..'
 import axios from 'axios'
-import styles from './Portifolio.style.module.css'
+import styles from './Portfolio.style.module.css'
 
-export function Portifolio() {
+export function Portfolio() {
   const [projetos, setProjetos] = useState([])
 
   useEffect(() => {
@@ -22,7 +22,7 @@ export function Portifolio() {
 
   return (
     <section className={styles.portifolio}>
-      <h2>PORTIFOLIO</h2>
+      <h2>PORTFÓLIO</h2>
       <ul className={styles.projetos__container}>
         {projetos.map(projeto => {
           return (
