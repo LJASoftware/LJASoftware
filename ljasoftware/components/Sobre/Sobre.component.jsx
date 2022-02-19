@@ -20,16 +20,10 @@ export function Sobre() {
 
         <section>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
-            pharetra eget metus semper. Nulla lorem at sapien vestibulum, in
-            gravida. Proin convallis consequat nulla quis sapien cursus
-            facilisis consectetur. At mauris vitae enim, est magna facilisi.
+            Somos uma empresa de tecnologia especializada na área de desenvolvimento de aplicativos e sites ( web development ) com o objetivo de inovar e ampliar, cada vez mais, o mundo da tecnologia, levando todos os projetos dos clientes do papel à tela, satisfazendo a demanda, com foco na qualidade do produto e satisfação do cliente.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
-            pharetra eget metus semper. Nulla lorem at sapien vestibulum, in
-            gravida. Proin convallis consequat nulla quis sapien cursus
-            facilisis consectetur. At mauris vitae enim, est magna facilisi.
+            Nossa missão é trazer à realidade do dia a dia da tecnologia da informação, os valores que trazemos consigo, através de boas práticas, que são: integridade, inovação, qualidade e diversidade.
           </p>
         </section>
       </div>
