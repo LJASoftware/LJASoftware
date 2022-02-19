@@ -9,7 +9,8 @@ export function Portifolio() {
   useEffect(() => {
     async function getProjetos() {
       try {
-        const resposta = await axios.get('http://localhost:3000/api/projetos')
+        const urlAtual = window.location.href
+        const resposta = await axios.get(urlAtual + '/api/projetos')
         setProjetos(resposta.data.projetos)
       } catch {
         console.log(error)
