@@ -13,7 +13,7 @@ export function Header() {
 
     <ul>
       <li><a href='#'>SOBRE</a></li>
-      <li><a href='#'>PORTIFÓLIO</a></li>
+      <li><a href='#'>PORTFÓLIO</a></li>
       <li><a href='#'>CONTATO</a></li>
     </ul>
 
