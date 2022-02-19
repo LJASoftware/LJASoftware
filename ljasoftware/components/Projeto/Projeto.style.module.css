@@ -19,8 +19,19 @@
   height: 25%;
   color: #5ca4f8;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .espaco {
   height: 25%;
+}
+
+.link__texto {
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+.link__texto:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
 }
