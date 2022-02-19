@@ -1,4 +1,4 @@
-.portifolio {
+.portfolio {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,7 +6,7 @@
   padding: 0 10vw;
 }
 
-.portifolio h2 {
+.portfolio h2 {
   display: flex;
   margin-top: 5vh;
   justify-content: center;
