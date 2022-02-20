@@ -42,7 +42,7 @@ export function Contato() {
     dados.append('mensagem', campos.mensagem)
 
     try {
-      await axios.post('https://formspree.io/f/mvolavkg', dados, {
+      await axios.post(process.env.FORM_SENDING_PATH, dados, {
         headers: { 'Content-Type': 'multipart/form-data' },
       })
       mostrarToasterSucesso()
