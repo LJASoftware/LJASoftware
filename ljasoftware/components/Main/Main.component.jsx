@@ -1,12 +1,11 @@
-import styles from './Main.style.module.css'
 import { Portfolio, Slogan, Sobre, Contato } from '..'
 
-export function Main() {
+export function Main({ projetos }) {
   return (
     <main>
       <Slogan />
       <Sobre />
-      <Portfolio />
+      <Portfolio projetos={projetos} />
       <Contato />
     </main>
   )

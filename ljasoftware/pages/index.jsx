@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { Header, Main, Footer } from '../components'
+import axios from 'axios'
 
-export default function Home() {
+export default function Home({ projetos }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -11,8 +12,16 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Header />
-      <Main />
+      <Main projetos={projetos} />
       <Footer />
     </div>
   )
+}
+
+export async function getServerSideProps(context) {
+  const urlAtual = context.req.headers.host
+  const resposta = await axios.get(`http://${urlAtual}/api/projetos`)
+  const projetos = resposta.data.projetos
+
+  return { props: { projetos } }
 }
