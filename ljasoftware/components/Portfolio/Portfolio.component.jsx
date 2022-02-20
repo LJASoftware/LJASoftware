@@ -3,7 +3,7 @@ import styles from './Portfolio.style.module.css'
 
 export function Portfolio({ projetos }) {
   return (
-    <section className={styles.portfolio}>
+    <section className={styles.portfolio} id='portfolio'>
       <h2>PORTFÓLIO</h2>
       <ul className={styles.projetos__container}>
         {projetos &&

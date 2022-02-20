@@ -36,7 +36,7 @@ export function Contato() {
   }
 
   return (
-    <section className={styles.contato}>
+    <section className={styles.contato} id='contato'>
       <ToastContainer
         position='top-right'
         autoClose={5000}
