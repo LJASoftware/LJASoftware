@@ -31,6 +31,12 @@ Ter instalado em sua máquina o [Node.js](https://nodejs.org/en/download/), um a
 
 ### Execução
 
+- Para entrar no projeto acesse a pasta "ljasoftware"
+
+```
+ $ cd ljasoftware
+```
+
 - Para instalar as dependências do projeto:
 
 ```
