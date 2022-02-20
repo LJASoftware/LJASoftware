@@ -2,9 +2,11 @@ import { useState } from 'react'
 import styles from './Contato.style.module.css'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import axios from 'axios'
 
 const MENSAGEM_SUCESSO = 'Mensagem enviada com sucesso!'
 const MENSAGEM_ERRO = 'Por favor preencha todos os campos!'
+const MENSAGEM_EMAIL_INVALIDO = 'Email inválido!'
 
 export function Contato() {
   const [campos, setCampos] = useState({ nome: '', email: '', mensagem: '' })
@@ -13,8 +15,12 @@ export function Contato() {
     toast.success(MENSAGEM_SUCESSO)
   }
 
+  function mostrarToasterAviso() {
+    toast.warn(MENSAGEM_ERRO)
+  }
+
   function mostrarToasterErro() {
-    toast.error(MENSAGEM_ERRO)
+    toast.error(MENSAGEM_EMAIL_INVALIDO)
   }
 
   function handleChange(event) {
@@ -23,16 +29,29 @@ export function Contato() {
     setCampos(values => ({ ...values, [name]: value }))
   }
 
-  function handleSubmit(event) {
+  async function handleSubmit(event) {
     event.preventDefault()
     if (campos.nome === '' || campos.email === '' || campos.mensagem === '') {
-      mostrarToasterErro()
+      mostrarToasterAviso()
       return
     }
+    const dados = new FormData()
 
-    mostrarToasterSucesso()
+    dados.append('nome', campos.nome)
+    dados.append('email', campos.email)
+    dados.append('mensagem', campos.mensagem)
 
-    setCampos({ nome: '', email: '', mensagem: '' })
+    try {
+      await axios.post(process.env.FORM_SENDING_PATH, dados, {
+        headers: { 'Content-Type': 'multipart/form-data' },
+      })
+      mostrarToasterSucesso()
+
+      setCampos({ nome: '', email: '', mensagem: '' })
+    } catch (error) {
+      console.log(error)
+      mostrarToasterErro()
+    }
   }
 
   return (

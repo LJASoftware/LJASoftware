@@ -3,4 +3,5 @@ module.exports = {
   images: {
     domains: ['images.unsplash.com'],
   },
+  env: { FORM_SENDING_PATH: process.env.FORM_SENDING_PATH },
 }
