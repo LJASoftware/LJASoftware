@@ -1,7 +1,7 @@
 # LJA Software
 [![Logo da LJA Software](https://avatars.githubusercontent.com/u/99517827?s=200&v=4)](https://github.com/LJASoftware)
 
-Empresa de tecnologia especializada na área de desenvolvimento de aplicativos e sites ( web development ). Para acessar o site da *LJA Software*, [clique aqui](https://ljasoftware-github-io-ljasoftware.vercel.app).
+Empresa de tecnologia especializada na área de desenvolvimento de aplicativos e sites ( web development ). Para acessar o site da *LJA Software*, [clique aqui](https://ljasoftware-github-io.vercel.app/).
 
 &nbsp;
 
