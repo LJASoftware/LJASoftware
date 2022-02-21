@@ -21,7 +21,7 @@ export default function Home({ projetos }) {
 export async function getServerSideProps(context) {
   const urlAtual = context.req.headers.host
   const resposta = await axios.get(`http://${urlAtual}/api/projetos`)
-  const projetos = resposta.data.projetos
+  const projetos = null
 
   return { props: { projetos } }
 }
