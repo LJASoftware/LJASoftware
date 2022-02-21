@@ -6,7 +6,7 @@ export function Portfolio({ projetos }) {
     <section className={styles.portfolio} id='portfolio'>
       <h2>PORTFÓLIO</h2>
       <ul className={styles.projetos__container}>
-        {projetos &&
+        {projetos ? (
           projetos.map(projeto => {
             return (
               <Projeto
@@ -16,7 +16,10 @@ export function Portfolio({ projetos }) {
                 imagem={projeto.imagem}
               />
             )
-          })}
+          })
+        ) : (
+          <p>Não há projetos cadastrados.</p>
+        )}
       </ul>
     </section>
   )
