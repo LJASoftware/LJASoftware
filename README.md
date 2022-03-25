@@ -1,9 +1,19 @@
-# LJA Software
-[![Logo da LJA Software](https://avatars.githubusercontent.com/u/99517827?s=200&v=4)](https://github.com/LJASoftware)
+<h1 align="center">LJA Software</h1>
 
-Empresa de tecnologia especializada na área de desenvolvimento de aplicativos e sites ( web development ). Para acessar o site da *LJA Software*, [clique aqui](https://ljasoftware-github-io.vercel.app/).
+<div align="center">
+ <a href="https://github.com/LJASoftware" display="block">
+  <img src="https://avatars.githubusercontent.com/u/99517827?s=200&v=4" alt="Logo da LJA Software" style= "width: 200px; height: 200px"/>
+ </a>
+</div>
+
+<div align="center">
+ <p>Empresa de tecnologia especializada na área de desenvolvimento de aplicativos e sites ( web development ). <br> Para acessar o site da <strong>LJA Software</strong>, <a href="https://ljasoftware-github-io.vercel.app/">clique aqui!</a>
+ </p>
+</div>
 
 &nbsp;
+
+<div align="justify">
 
 ## O que é o projeto LJA Software e qual é o seu objetivo?
 
@@ -60,4 +70,6 @@ Documentação e versões: https://nodejs.org/en/docs/
 
 Lyzzandro Dualamo Soares Teodosio | João Alfredo Alves Marinho Neto | Alysson Aldrin Barreto Bezerra
 :------: | :------: | :------:
-[![Foto do Integrante Lyzzandro](https://avatars.githubusercontent.com/u/59299120?v=4)](https://github.com/lyzzandro) *Idealizador e Desenvolvedor* | [![Foto do Integrante João Alfredo](https://avatars.githubusercontent.com/u/68473607?v=4)](https://github.com/JoaoAlfredoAlves) *Idealizador e Desenvolvedor* | [![Foto do Integrante Alysson](https://avatars.githubusercontent.com/u/14878862?v=4)](https://github.com/alyssonaldrin) *Idealizador e Desenvolvedor* 
+[![Foto do Integrante Lyzzandro](https://avatars.githubusercontent.com/u/59299120?v=4)](https://github.com/lyzzandro) *Idealizador e Desenvolvedor* | [![Foto do Integrante João Alfredo](https://avatars.githubusercontent.com/u/68473607?v=4)](https://github.com/JoaoAlfredoAlves) *Idealizador e Desenvolvedor* | [![Foto do Integrante Alysson](https://avatars.githubusercontent.com/u/14878862?v=4)](https://github.com/alyssonaldrin) *Idealizador e Desenvolvedor*
+ 
+</div>
